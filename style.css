@@ -1,21 +1,21 @@
 
-@media screen and (max-width: 1200px) and (orientation: landscape) {
+@media screen and (max-width: 1600px) and (orientation: landscape) {
     p{
         font-size: small;
-        background-color: blue;
+        background-color: blue; /* ordinateur*/
     }
  }
 
- @media screen and (max-width: 768px) and (orientation: landscape) {
+ @media screen and (max-width: 768px) and (orientation: portrait) {
     p{
         font-size: medium;
-        background-color: green;
+        background-color: green; /*tablette*/
     }
 }
 
-@media screen and (max-width: 480px) and (orientation: landscape) {
+@media screen and (max-width: 480px) and (orientation: portrait) {
     p{
         font-size: large;
-        background-color: yellow;
+        background-color: yellow; /*portable*/
     }
 }
